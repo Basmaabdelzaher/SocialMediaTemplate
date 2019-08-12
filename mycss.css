@@ -1,0 +1,196 @@
+.container-fluid {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7f8;
+}
+
+.card {
+    background-color: white;
+    margin: 10px 0;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.col {
+    padding: 0;
+}
+
+.navbar {
+    background-color: #4d636f;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-link {
+    margin: 0 20px;
+    color: white;
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-brand
+{
+    color: white;
+    background: #3a4b53;
+    padding: 10px 10px;
+    margin: 0;
+
+}
+
+.navbar-brand:hover
+{
+    color: black;
+    background: #ccc;
+}
+
+.navbar-nav li {
+
+    padding: 5px 0;
+}
+
+.navbar-nav li:hover {
+    background: #ccc;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    padding: 5px;
+}
+
+.post-user-img {
+    height: 60px;
+}
+
+.post-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #4d636f; 
+}
+
+.post-btn:hover {
+    color: black;
+    background-color: #ccc; 
+}
+
+.post-img {
+    height: 200px;
+    margin: 1px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.post1-img {
+    width: 48%;
+    background-image: url(assets/lights.jpg);
+
+}
+.post2-img {
+    width: 48%;
+    background-image: url(assets/nature.jpg);
+
+}
+
+.post3-img {
+    width: 100%;
+    background-image: url(assets/nature.jpg);
+}
+
+.request-btn {
+    text-decoration: none;
+    color: white;
+}
+
+.request-btn:hover {
+    background-color: lightgray;
+    color: gray;
+}
+
+.confirm {
+    background-color: green;
+}
+
+.cancel {
+    background-color: red;
+}
+
+#info-list .fas {
+    color: #607d8b;
+}
+
+#nav-avatar{
+    height: 30px;
+ 
+}
+
+#card-avatar, #event-img {
+    height: 100px;
+}
+
+#info-list {
+    list-style: none;
+}
+
+#options-list
+{
+}
+#options-list li {
+    background-color: #607d8b;
+}
+
+#options-list li:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+#options-list a {
+    text-decoration: none;
+    color: white;
+}
+#options-list a:hover {
+    color: black;
+}
+
+#alert-button  {
+    background-color: #becbd2;
+    color: black;
+}
+
+#footer {
+    color: white;
+    background-color: #4d636f;
+}
+
+#powered {
+    color: white;
+    background-color: #3a4b53;
+}
+
+#event-btn {
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+}
+
+#event-btn:hover {
+    background-color: #ccc;
+}
+
+
+
+
+
+
+

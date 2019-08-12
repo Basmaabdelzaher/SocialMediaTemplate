@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Social Media Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mycss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col mb-2">
+
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand" href="#">
+                        <i class="fas fa-home mx-2 fa-sm"></i>
+                        <span class="mx-2">Logo</span>
+                    </a>
+
+                    <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-globe-asia"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <i class="fas fa-bell"></i>
+                                    <span class="badge badge-pill float-right badge-success">3</span>
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">One new friend request</a>
+                                    <a class="dropdown-item" href="#">John posted on your wall</a>
+                                    <a class="dropdown-item" href="#">Jane liked your post</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <a class="nav-link" href="#">
+                            <img src="assets/avatar2.png" id="nav-avatar" class="rounded-circle" alt="">
+                        </a>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 px-2">
+                <div class="card p-1">
+                    <div class="card-body text-center p-2">
+                        <h2 class="display-5">My Profile</h2>
+                        <img id="card-avatar" src="assets/avatar3.png" class="rounded-circle m-3" alt="avatar-card">
+                        <div>
+                            <ul id="info-list" class="text-left p-0">
+                                <li>
+                                    <i class="fas fa-pencil-alt fa-sm  px-3 py-2"></i>
+                                    <p class="d-inline p-2">Designer, UI</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-home fa-sm  px-3 py-2"></i>
+                                    <p class="d-inline p-2">London, UK</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-birthday-cake fa-sm  px-3 py-2"></i>
+                                    <p class="d-inline p-2">21/3/1991</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card border-0">
+                    <div class="card-body p-0">
+                        <ul id="options-list" class="list-group list-group-flush text-left">
+                            <li class="list-group-item p-3">
+                                <a href="#">
+                                    <i class="fas fa-circle-notch"></i>
+                                    <p class="d-inline p-3">My Groups</p>
+                                </a>
+                            </li>
+                            <li class="list-group-item p-3">
+                                <a href="#">
+                                    <i class="far fa-calendar-check"></i>
+                                    <p class="d-inline p-3">My Events</p>
+                                </a>
+                            </li>
+                            <li class="list-group-item p-3">
+                                <a href="#">
+                                    <i class="fas fa-users"></i>
+                                    <p class="d-inline p-3">My Photos</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-body p-2">
+                        <h3>Interests</h3>
+                        <p>
+                            <span class="badge badge-dark mx-1">News</span>
+                            <span class="badge badge-secondary mx-1">W3Schools</span>
+                            <span class="badge badge-secondary mx-1">Games</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="alert alert-dark alert-dismissible p-0">
+                    <button id="alert-button" type="button" class="close p-2" data-dismiss="alert">
+                        <i class="fas fa-times fa-small p-1"></i>
+                    </button>
+                    <p class="p-3">
+                        <strong>Hey!
+                            <br />
+                            <br />
+                        </strong>People are looking at your profile. Find out who.</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 px-2">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Social Media template</p>
+                        <input type="text" value="feeling blue .." class="form-control mb-3">
+                        <a href="#" class="card-link p-2 post-btn">
+                            <i class="fas fa-pencil-alt fa-sm  p-1"></i>Post</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="p-4">
+                        <img class="post-user-img rounded-circle" src="assets/avatar2.png" alt="post-user">
+                        <h4 class="d-inline p-3">John Doe</h4>
+                        <p class="float-right text-secondary">1 min</p>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nam quisquam quas aut, soluta at autem
+                            atque quidem ea quae sit cupiditate laborum id assumenda maxime, odio optio debitis tempora?</p>
+                        <div class="img-container row mb-3">
+                            <div class="post-img post1-img"></div>
+                            <div class="post-img post2-img"></div>
+                        </div>
+                        <a href="#" class="card-link py-2 px-3 post-btn text-center">
+                            <i class="fas fa-thumbs-up fa-sm p-2"></i>Link</a>
+                        <a href="#" class="card-link py-2 px-3 mx-0 post-btn text-center">
+                            <i class="fas fa-comment fa-sm p-2"></i>Comment</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="p-4">
+                        <img class="post-user-img rounded-circle" src="assets/avatar5.png" alt="post-user">
+                        <h4 class="d-inline p-3">Jane Doe</h4>
+                        <p class="float-right text-secondary">16 mins</p>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nam quisquam quas aut, soluta at autem
+                            atque quidem ea quae sit cupiditate laborum id assumenda maxime, odio optio debitis tempora?</p>
+                        <a href="#" class="card-link py-2 px-3 post-btn text-center">
+                            <i class="fas fa-thumbs-up fa-sm p-2"></i>Link</a>
+                        <a href="#" class="card-link py-2 px-3 mx-0 post-btn text-center">
+                            <i class="fas fa-comment fa-sm p-2"></i>Comment</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="p-4">
+                        <img class="post-user-img rounded-circle" src="assets/avatar2.png" alt="post-user">
+                        <h4 class="d-inline p-3">Angie Jane</h4>
+                        <p class="float-right text-secondary">59 mins</p>
+                    </div>
+                    <div class="card-body">
+                        <p>Have you seen this?</p>
+                        <div class="post3-img-container row mb-3">
+                            <div class="post-img post3-img"></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse enim aliquid soluta consequuntur inventore,
+                            facere sint odio cumque nemo sapiente obcaecati, ducimus! Mollitia, nam. Animi nisi distinctio,
+                            dignissimos consectetur adipisci.</p>
+                        <a href="#" class="card-link py-2 px-3 post-btn text-center">
+                            <i class="fas fa-thumbs-up fa-sm p-2"></i>Link</a>
+                        <a href="#" class="card-link py-2 px-3 mx-0 post-btn text-center">
+                            <i class="fas fa-comment fa-sm p-2"></i>Comment</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 px-2">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <p>Upcoming Events</p>
+                        <img id="event-img" src="assets/forest.jpg" alt="lights">
+                        <p class="font-weight-bold m-2">Holiday</p>
+                        <p>Friday 15:00</p>
+                        <a id="event-btn" href="#" class="px-5 py-2">Info</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body text-center">
+                        <p class="font-weight-bold">Friend Request</p>
+                        <img id="event-img" src="assets/avatar5.png" alt="friend">
+                        <p>Jane Doe</p>
+                        <div class="row">
+                            <a href="#" class="col-md-6 card-link py-2 px-4 mx-0 my-2 request-btn confirm">
+                                <i class="fas fa-check fa-sm"></i>
+                            </a>
+                            <a href="#" class="col-md-6 card-link py-2 px-4 mx-0 my-2 request-btn cancel">
+                                <i class="fas fa-times fa-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body text-center">
+                        <p class="p-4 m-0">ADS</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body text-center">
+                        <p class="p-4 m-0">
+                            <i class="fas fa-frog fa-4x"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="row mt-2 p-3">
+            <p>Copyright &copy; 2018</p>
+        </div>
+        <div id="powered" class="row p-3">
+            <p>footer</p>
+        </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
